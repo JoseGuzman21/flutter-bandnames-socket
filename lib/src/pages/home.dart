@@ -131,6 +131,7 @@ class _HomePageState extends State<HomePage> {
         leading: CircleAvatar(
           child: Text(band.name.substring(0, 2)),
           backgroundColor: Colors.blue[100],
+          // jose == '' ? true : false;
         ),
         title: Text(band.name),
         trailing: Text('${band.votes}', style: TextStyle(fontSize: 20)),
